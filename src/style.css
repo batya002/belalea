@@ -1,2 +1,253 @@
 @import "tailwindcss";
-@import "@css/font.css"
+@import "@css/font.css";
+
+.container {
+  @apply mx-auto px-5;
+}
+
+/* === Цвета === */
+.color-soft-mint {
+  color: #7eb693;
+}
+.color-charcoal-blue {
+  color: #274c5b;
+}
+.color-light-gray {
+  color: #d4d4d4;
+}
+.color-off-white {
+  color: #f9f8f8;
+}
+.color-pale-green {
+  color: #eff6f1;
+}
+.color-dark-gray {
+  color: #525c60;
+}
+.color-soft-yellow {
+  color: #efd372;
+}
+.color-soft-white {
+  color: #fafafa;
+}
+.color-medium-gray {
+  color: #ababab;
+}
+
+/* === Шрифты === */
+.font-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.font-opensans {
+  font-family: "Open Sans", sans-serif;
+}
+.font-rosamarena {
+  font-family: "Rosa Marena", sans-serif;
+}
+
+/* === Максимальная ширина === */
+.max-w-header {
+  max-width: 99.75rem;
+}
+.max-w-section {
+  max-width: 90rem;
+}
+
+/* === Ширина === */
+.w-search {
+  width: 23.5rem;
+}
+.w-section {
+  width: 28.375rem;
+}
+.w-button {
+  width: 21.8125rem;
+}
+
+/* === Фоновые изображения === */
+.bg-home-hero {
+  background-image: url("/src/assets/images/background/home/backgroundhero.webp");
+}
+.bg-home-about {
+  background-image: url("/src/assets/images/background/home/backgroundabout.webp");
+}
+.bg-home-reviews {
+  background-image: url("/src/assets/images/background/home/backgroundreviews.webp");
+}
+.bg-home-eco {
+  background-image: url("/src/assets/images/background/home/backgrounteco.webp");
+}
+.bg-home-natural {
+  background-image: url("/src/assets/images/background/home/backgroundnatural.webp");
+}
+.bg-home-news {
+  background-image: url("/src/assets/images/background/home/backgroundnews.webp");
+}
+.bg-home-useful {
+  background-image: url("/src/assets/images/background/home/backgrounduseful.webp");
+}
+.bg-home-news-item {
+  background-image: url("/src/assets/images/background/home/backgroundnewsitem.webp");
+}
+.bg-home-discount {
+  background-image: url("/src/assets/images/background/home/backgrounddiscount.webp");
+}
+.bg-about-banner {
+  background-image: url("/src/assets/images/background/backgroundaboutbaner.webp");
+}
+.bg-shop-banner {
+  background-image: url("/src/assets/images/background/backgroundshopbaner.webp");
+}
+.bg-shop-single-banner {
+  background-image: url("/src/assets/images/background/backgroundshopsingle.webp");
+}
+.bg-blog-banner {
+  background-image: url("/src/assets/images/background/backgroundblogbaner.webp");
+}
+.bg-contact-banner {
+  background-image: url("/src/assets/images/background/backgroundcontactbaner.webp");
+}
+.bg-background {
+  background-image: url("/src/assets/images/background/background.webp");
+}
+.bg-contact-address {
+  background-image: url("/src/assets/images/background/backgroundaddress.webp");
+}
+.bg-error-banner {
+  background-image: url("/src/assets/images/background/backgrounderror.webp");
+}
+
+/* === Высота строк === */
+.leading-tight-sm {
+  line-height: 1.3125rem;
+}
+.leading-tight-md {
+  line-height: 1.375rem;
+}
+.leading-tight-lg {
+  line-height: 1.4375rem;
+}
+.leading-normal-sm {
+  line-height: 1.625rem;
+}
+.leading-normal-md {
+  line-height: 1.8125rem;
+}
+.leading-normal-lg {
+  line-height: 1.9375rem;
+}
+.leading-relaxed-sm {
+  line-height: 2.0625rem;
+}
+.leading-relaxed-md {
+  line-height: 2.125rem;
+}
+.leading-relaxed-lg {
+  line-height: 2.1875rem;
+}
+.leading-loose-sm {
+  line-height: 2.5625rem;
+}
+.leading-loose-md {
+  line-height: 2.6875rem;
+}
+.leading-loose-lg {
+  line-height: 2.75rem;
+}
+.leading-wide-sm {
+  line-height: 2.875rem;
+}
+.leading-wide-md {
+  line-height: 3.0625rem;
+}
+.leading-wide-lg {
+  line-height: 3.1875rem;
+}
+.leading-extra-wide-sm {
+  line-height: 3.4375rem;
+}
+.leading-extra-wide-md {
+  line-height: 3.5rem;
+}
+.leading-extra-wide-lg {
+  line-height: 3.625rem;
+}
+.leading-ultra-wide-sm {
+  line-height: 4.5625rem;
+}
+.leading-ultra-wide-md {
+  line-height: 5.125rem;
+}
+
+/* === Отступы между элементами (gap) === */
+.gap-tight {
+  gap: 0.625rem;
+}
+.gap-compact {
+  gap: 0.9375rem;
+}
+.gap-cozy {
+  gap: 1.3125rem;
+}
+.gap-balanced {
+  gap: 1.625rem;
+}
+.gap-spaced {
+  gap: 1.875rem;
+}
+.gap-relaxed {
+  gap: 2.1875rem;
+}
+.gap-roomy {
+  gap: 3.125rem;
+}
+.gap-wide {
+  gap: 3.875rem;
+}
+.gap-expansive {
+  gap: 4.0625rem;
+}
+
+/* === Отступы (inset) === */
+.inset-tiny {
+  inset: 0.3125rem;
+}
+.inset-micro {
+  inset: 0.375rem;
+}
+
+/* === Внутренние отступы (padding) === */
+.p-button {
+  padding: 2.4375rem;
+}
+.p-wide {
+  padding: 4.4375rem;
+}
+.p-wide-md {
+  padding: 9.375rem;
+}
+
+/* === Внешние отступы (margin) === */
+.m-small-banner {
+  margin: 11.6875rem;
+}
+.m-banner {
+  margin: 18.875rem;
+}
+
+/* === Размер шрифтов === */
+.text-display-xl {
+  font-size: 4.375rem;
+}
+.text-display-lg {
+  font-size: 3.125rem;
+}
+.text-display-md {
+  font-size: 2.5625rem;
+}
+.text-display-sm {
+  font-size: 2.5rem;
+}
+.text-body-lg {
+  font-size: 1.5625rem;
+}

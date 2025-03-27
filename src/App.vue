@@ -1,6 +1,10 @@
 <script setup lang="ts">
+import { Header } from '@/components/layout';
 </script>
 
 <template>
-  <h1>HelloWorld</h1>
+  <Header />
+  <main>
+    <router-view></router-view>
+  </main>
 </template>
